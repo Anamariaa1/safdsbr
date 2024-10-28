@@ -1,0 +1,50 @@
+:root{
+font-family: Arial, helvetica;
+}
+
+body{
+background-color: #000;
+}
+#titulo{
+text-align:center;
+color:#fff;
+}
+
+#descripcion{
+color:#FAAC58;
+font-size: 18px;
+
+
+}
+#menu{
+text-align:center;
+background-color:#318F1C;
+}
+
+#menu{
+text-align:center;
+background-color:#318F1C;
+}
+#lista-menu{
+display:flex;
+justify-content:center;
+gap:20px;
+color:#fff;
+padding-top:10px;
+padding-bottom:10px;
+list-style:none;
+}
+.menu-item{
+color:#fff;
+font-size: 18px;
+}
+.enlace-item{
+text-decoration:none;
+}
+#contenedor-1{
+width:100vw;
+height: 700px;
+background-image: url("./img/atletismos.jfif");
+background-repeat: no-repeat;
+background-size: cover;
+color:#fff;

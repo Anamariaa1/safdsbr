@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #ff009d;
+    color: rgb(240, 23, 222);
+    padding: 10px 0;
+    text-align: center; /* Centra el texto del encabezado */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Centra el texto dentro del main */
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Permite centrar la sección en el contenedor principal */
+    text-align: left; /* Alinea el texto dentro de la sección a la izquierda */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #3d0e2b;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
